@@ -1,12 +1,7 @@
 # Measuring and Improving Test Coverage
 
-Objective: Give students guidelines to identify
-whether their code is adequately tested, and tools
-to get this information.
-
 Takeaways: Ability to use SimpleCov to identify
 untested code, and interpret that.
-
 
 ## What is code coverage?
 

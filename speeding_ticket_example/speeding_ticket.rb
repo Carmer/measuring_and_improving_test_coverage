@@ -1,9 +1,11 @@
 def speeding_ticket(speed, speed_limit)
-  if speed < speed_limit
-    0
-  elsif speed_limit*2 < speed
-    100
-  else
-    50
-  end
+	ratio = speed / speed_limit
+	if ratio >= 4
+		400
+	elsif ratio >= 3
+		250
+	elsif ratio >= 2
+		100
+	end
 end
+
